@@ -1,0 +1,5 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/CV/CV.css);
+@import url(../blocks/CV/__title/CV__title.css);
+@import url(../blocks/CV/__button/CV__button.css);

@@ -1,0 +1,15 @@
+.CV__button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 56px;
+    width: 504px;
+    background-color: #528CBE;
+    color: #fff;
+    height: 56px;
+    cursor: pointer;
+}
+
+.CV__button:hover{
+    background-color: #487FAE;
+}
