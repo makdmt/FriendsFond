@@ -1,0 +1,14 @@
+.procharity__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .procharity__header {
+    font-size: 32px;
+  }
+}
