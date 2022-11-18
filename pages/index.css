@@ -5,6 +5,16 @@
 @import url(../vendor/slider/slider.css);
 @import url(../vendor/slider/styles.css);
 /*  */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__text/_style/about__text_style_bold.css);
+
+/*  */
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
 @import url(../blocks/grid/__image/grid__image.css);
@@ -33,6 +43,7 @@
 @import url(../blocks/blog/__slider-indicator/bolg__slider-indicator.css);
 @import url(../blocks/blog/__slider-indicators/blog__slider-indicators.css);
 @import url(../blocks/blog/__main-card/_visible/blog__main-card_visible.css);
+@import url(../blocks/blog/__last-card/_visible/blog__last-card_visible.css);
 @import url(../blocks/blog/__cards/blog__cards.css);
 @import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
 @import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);

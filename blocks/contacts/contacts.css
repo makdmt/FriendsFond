@@ -1,0 +1,17 @@
+.contacts {
+  min-height: 553px;
+  min-width: 100%;
+  background-image: url(../../images/map.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    background-image: url(../../images/map-mobile.png);
+    min-height: 420px;
+    background-position: top;
+  }
+}
