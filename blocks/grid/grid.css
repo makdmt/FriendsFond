@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
   margin-left: 100px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {

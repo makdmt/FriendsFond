@@ -3,6 +3,7 @@
   align-items: center;
   max-width: 1032px;
   box-sizing: content-box;
+  overflow: hidden;
 }
 @media screen and (max-width: 1033px) {
   .blog {

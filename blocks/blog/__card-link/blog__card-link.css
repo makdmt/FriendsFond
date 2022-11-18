@@ -13,4 +13,5 @@
 
 .blog__card-link:hover {
   color: #54a8b6;
+  cursor: pointer;
 }

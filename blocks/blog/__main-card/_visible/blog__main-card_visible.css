@@ -4,5 +4,9 @@
 @media screen and (max-width: 767px) {
   .blog__main-card_visible {
     display: block;
+    min-height: 327px;
+    background-image: url('../../../../images/blog_lead-background_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

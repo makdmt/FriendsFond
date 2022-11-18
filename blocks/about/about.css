@@ -1,0 +1,17 @@
+.about {
+  max-width: 504px;
+  max-height: 413px;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  left: 124px;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    max-width: 343px;
+    left: 0;
+    top: 241px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,13 @@
+.about__header {
+  padding: 40px 0 0 40px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__header {
+    font-size: 32px;
+  }
+}
