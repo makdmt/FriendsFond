@@ -1,0 +1,5 @@
+@media screen and (max-width: 560px) {
+    .partners__logo_hidden{
+        display: none;
+    }
+}
