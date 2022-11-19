@@ -6,3 +6,9 @@
   flex-direction: column;
   gap: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .about__list {
+    padding: 32px 27px 31px 27px;
+  }
+}

@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 767px) {
   .about__header {
+    padding: 24px 0 0 24px;
     font-size: 32px;
   }
 }
