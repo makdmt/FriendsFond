@@ -66,3 +66,14 @@
 @import url(../blocks/procharity/__header/procharity__header.css);
 @import url(../blocks/procharity/__grid/procharity__grid.css);
 @import url(../blocks/procharity/__image/procharity__image.css);
+/*Блок 15*/
+@import url(../blocks/CV/CV.css);
+@import url(../blocks/CV/__button/CV__button.css);
+@import url(../blocks/CV/__title/CV__title.css);
+/* Блок 58 */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__button/partners__button.css);
+@import url(../blocks/partners/__logo-grid/partners__logo-grid.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__logo/_hidden/partners__logo_hidden.css);
+@import url(../blocks/partners/__title/partners__title.css);

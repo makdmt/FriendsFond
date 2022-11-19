@@ -134,3 +134,34 @@ if (isMobile()) {
 }
 
 // Кол-во карточек, в зависимости от размера экрана, изменяется при обновлении страницы
+
+
+//блок 58 Артём
+const boxes = document.querySelectorAll(".partners__logo");
+const buttonPartners = document.querySelector(".partners__button");
+const gridWrapper = document.querySelectorAll(".partners__logo-grid");
+const hiddenLogos = Array.from(boxes).splice(20); //создает новый массив из элементов, которые должны быть скрыты после показа
+
+//именяет видимость логотипов по нажатию на кнопку в блоке 58
+function toggleCardsVisibility(){
+    if(buttonPartners.textContent === 'Показать еще'){
+        gridWrapper.forEach((item) => {
+            item.style.cssText = `grid-template-rows: repeat(22, 1fr);`;
+          });
+          boxes.forEach((item) => {
+            item.classList.remove("partners__logo_hidden");
+          });
+          buttonPartners.textContent = "Скрыть";
+    }else{
+        gridWrapper.forEach((item) => {
+            item.style.cssText = `grid-template-rows: repeat(10, 1fr);`;
+          });
+        hiddenLogos.forEach((item) => {
+            item.classList.add('partners__logo_hidden')
+        });
+        buttonPartners.textContent = 'Показать еще';
+    }
+}
+
+buttonPartners.addEventListener('click', toggleCardsVisibility)
+// конец блока 58
