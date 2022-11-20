@@ -1,0 +1,16 @@
+.partners__title {
+    margin: 0;
+    padding: 48px 0 73px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 86px;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .partners__title {
+      padding: 48px 0 56px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 44px;
+    }
+  }
