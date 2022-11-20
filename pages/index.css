@@ -77,3 +77,9 @@
 @import url(../blocks/partners/__logo/partners__logo.css);
 @import url(../blocks/partners/__logo/_hidden/partners__logo_hidden.css);
 @import url(../blocks/partners/__title/partners__title.css);
+/* Блок 49 */
+@import url(../blocks/business-partners/business-partners.css);
+@import url(../blocks/business-partners/__button/business-partners__button.css);
+@import url(../blocks/business-partners/__logo-grid/business-partners__logo-grid.css);
+@import url(../blocks/business-partners/__logo/business-partners__logo.css);
+@import url(../blocks/business-partners/__title/business-partners__title.css);

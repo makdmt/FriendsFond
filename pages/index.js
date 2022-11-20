@@ -165,3 +165,30 @@ function toggleCardsVisibility(){
 
 buttonPartners.addEventListener('click', toggleCardsVisibility)
 // конец блока 58
+// начало блока 49
+const button = document.querySelector('.business-partners__button');
+const box = document.querySelectorAll('.business-partners__logo');
+const lastElem = Array.from(box)[box.length - 1];
+console.log(box)
+function hideLogos () {
+  for (let i=36;i<box.length;i++) {
+      box[i].style.display = "none";
+  }
+}
+hideLogos();
+
+function toggleLogosVisibility(){
+  if(lastElem.style.display === 'none'){
+  for (let i=34;i<box.length;i++) {
+    box[i].style.display = "block";
+}
+    button.textContent = 'Скрыть';
+}else {
+  hideLogos();
+  button.textContent = 'Показать еще';
+}
+}
+
+
+button.addEventListener('click', toggleLogosVisibility);
+//конец блока 49
