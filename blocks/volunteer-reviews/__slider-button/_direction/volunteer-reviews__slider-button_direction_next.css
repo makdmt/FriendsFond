@@ -1,0 +1,6 @@
+.volunteer-reviews__slider-button_direction_next {
+/* grid-column: 3;
+justify-self: end; */
+right: -30px;
+background-image: url(../../../../images/button-arrow-right.svg);
+}

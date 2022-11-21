@@ -1,0 +1,29 @@
+.volunteer-reviews__grid-wrapper {
+  position: relative;
+  width: 81%;
+  max-width: 1032px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 355px 355px;
+  /* grid-template-rows: auto auto auto; */
+
+}
+
+@media screen and (min-width: 811px) and (max-width: 1220px) {
+
+  .volunteer-reviews__grid-wrapper {
+    grid-template-columns: 355px 355px;
+    width: unset;
+  }
+
+}
+
+@media screen and (max-width: 810px) {
+
+  .volunteer-reviews__grid-wrapper {
+    width: 91%;
+    grid-template-columns: 1fr 1fr;
+    /* width: unset; */
+  }
+
+}

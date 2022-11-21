@@ -1,0 +1,17 @@
+.volunteer-reviews__slider-button_direction_previous {
+  /* grid-column: 1; */
+  /* justify-self: start; */
+  background-image: url(../../../../images/button-arrow-left.svg);
+  /* left: 124px; */
+
+}
+
+
+@media screen and (max-width: 1220px) {
+
+  .volunteer-reviews__slider-button_direction_previous {
+
+    left: -30px;
+  }
+
+}
