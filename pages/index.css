@@ -74,6 +74,7 @@
 @import url(../blocks/partners/__logo/partners__logo.css);
 @import url(../blocks/partners/__logo/_hidden/partners__logo_hidden.css);
 @import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__link/partners__link.css);
 /* Блок 49 */
 @import url(../blocks/business-partners/business-partners.css);
 @import url(../blocks/business-partners/__button/business-partners__button.css);
