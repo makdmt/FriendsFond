@@ -13,6 +13,7 @@
 @import url(../blocks/about/__image/about__image.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__text/_style/about__text_style_bold.css);
+@import url(../blocks/about/__link/about__link.css);
 
 /*  */
 @import url(../blocks/grid/grid.css);
@@ -25,6 +26,9 @@
 @import url(../blocks/nko/nko.css);
 @import url(../blocks/nko/__header/nko__header.css);
 @import url(../blocks/nko/__grid/nko__grid.css);
+/*  */
+@import url(../blocks/link/link.css);
+
 /*  */
 @import url(../blocks/blog/blog.css);
 @import url(../blocks/blog/__title/blog__title.css);
@@ -39,19 +43,12 @@
 @import url(../blocks/blog/__card-img/blog__card-img.css);
 @import url(../blocks/blog/__card-date/blog__card-date.css);
 @import url(../blocks/blog/__button/blog__button.css);
-@import url(../blocks/blog/__slider-control/blog__slider-control.css);
-@import url(../blocks/blog/__slider-indicator/bolg__slider-indicator.css);
-@import url(../blocks/blog/__slider-indicators/blog__slider-indicators.css);
 @import url(../blocks/blog/__main-card/_visible/blog__main-card_visible.css);
 @import url(../blocks/blog/__last-card/_visible/blog__last-card_visible.css);
 @import url(../blocks/blog/__cards/blog__cards.css);
-@import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
-@import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
-@import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
 @import url(../blocks/blog/__link/blog__link.css);
-@import url(../blocks/blog/__link/_color/blog__link_color.css);
+@import url(../blocks/blog/__link/_color/blog__link_color_yellow.css);
 @import url(../blocks/blog/__last-card/blog__last-card.css);
-@import url(../blocks/blog/__last-card-text/blog__last-card-text.css);
 @import url(../blocks/blog/__card-link/blog__card-link.css);
 /*  */
 @import url(../blocks/school/school.css);

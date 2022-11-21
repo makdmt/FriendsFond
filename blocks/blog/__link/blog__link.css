@@ -4,7 +4,7 @@
   top: 16px;
   left: 16px;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -12,10 +12,11 @@
   color: black;
   padding-left: 8px;
   padding-right: 8px;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 767px) {
   .blog__link {
     left: 24px;
-    top: 10px;
+    top: 24px;
   }
 }

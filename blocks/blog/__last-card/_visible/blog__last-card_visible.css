@@ -1,3 +1,7 @@
+.blog__last-card_visible {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .blog__last-card_visible {
     display: block;

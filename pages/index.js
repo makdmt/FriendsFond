@@ -128,13 +128,12 @@ function isMobile() {
   return false;
 }
 
-if (isMobile()) {
-  hideCards(blogCards, 4);
-  hideCards(mediaCards, 3);
-}
+// if (isMobile()) {
+//   hideCards(blogCards, 4);
+//   hideCards(mediaCards, 3);
+// }
 
 // Кол-во карточек, в зависимости от размера экрана, изменяется при обновлении страницы
-
 
 //блок 58 Артём
 const boxes = document.querySelectorAll(".partners__logo");
@@ -143,52 +142,51 @@ const gridWrapper = document.querySelectorAll(".partners__logo-grid");
 const hiddenLogos = Array.from(boxes).splice(20); //создает новый массив из элементов, которые должны быть скрыты после показа
 
 //именяет видимость логотипов по нажатию на кнопку в блоке 58
-function toggleCardsVisibility(){
-    if(buttonPartners.textContent === 'Показать еще'){
-        gridWrapper.forEach((item) => {
-            item.style.cssText = `grid-template-rows: repeat(22, 1fr);`;
-          });
-          boxes.forEach((item) => {
-            item.classList.remove("partners__logo_hidden");
-          });
-          buttonPartners.textContent = "Скрыть";
-    }else{
-        gridWrapper.forEach((item) => {
-            item.style.cssText = `grid-template-rows: repeat(10, 1fr);`;
-          });
-        hiddenLogos.forEach((item) => {
-            item.classList.add('partners__logo_hidden')
-        });
-        buttonPartners.textContent = 'Показать еще';
-    }
+function toggleCardsVisibility() {
+  if (buttonPartners.textContent === "Показать еще") {
+    gridWrapper.forEach((item) => {
+      item.style.cssText = `grid-template-rows: repeat(22, 1fr);`;
+    });
+    boxes.forEach((item) => {
+      item.classList.remove("partners__logo_hidden");
+    });
+    buttonPartners.textContent = "Скрыть";
+  } else {
+    gridWrapper.forEach((item) => {
+      item.style.cssText = `grid-template-rows: repeat(10, 1fr);`;
+    });
+    hiddenLogos.forEach((item) => {
+      item.classList.add("partners__logo_hidden");
+    });
+    buttonPartners.textContent = "Показать еще";
+  }
 }
 
-buttonPartners.addEventListener('click', toggleCardsVisibility)
+buttonPartners.addEventListener("click", toggleCardsVisibility);
 // конец блока 58
 // начало блока 49
-const button = document.querySelector('.business-partners__button');
-const box = document.querySelectorAll('.business-partners__logo');
+const button = document.querySelector(".business-partners__button");
+const box = document.querySelectorAll(".business-partners__logo");
 const lastElem = Array.from(box)[box.length - 1];
-console.log(box)
-function hideLogos () {
-  for (let i=36;i<box.length;i++) {
-      box[i].style.display = "none";
+console.log(box);
+function hideLogos() {
+  for (let i = 36; i < box.length; i++) {
+    box[i].style.display = "none";
   }
 }
 hideLogos();
 
-function toggleLogosVisibility(){
-  if(lastElem.style.display === 'none'){
-  for (let i=34;i<box.length;i++) {
-    box[i].style.display = "block";
-}
-    button.textContent = 'Скрыть';
-}else {
-  hideLogos();
-  button.textContent = 'Показать еще';
-}
+function toggleLogosVisibility() {
+  if (lastElem.style.display === "none") {
+    for (let i = 34; i < box.length; i++) {
+      box[i].style.display = "block";
+    }
+    button.textContent = "Скрыть";
+  } else {
+    hideLogos();
+    button.textContent = "Показать еще";
+  }
 }
 
-
-button.addEventListener('click', toggleLogosVisibility);
+button.addEventListener("click", toggleLogosVisibility);
 //конец блока 49

@@ -4,9 +4,7 @@
   position: relative;
   box-sizing: content-box;
 }
-.blog__card:hover .blog__card-title {
-  color: #54a8b6;
-}
+
 @media screen and (max-width: 767px) {
   .blog__card {
     background: white;
