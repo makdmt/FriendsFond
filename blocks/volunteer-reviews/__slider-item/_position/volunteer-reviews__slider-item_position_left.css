@@ -1,0 +1,35 @@
+.volunteer-reviews__slider-item_position_left {
+  /* margin-top: 5%; */
+  /* margin-right: 30px; */
+  width: 324px;
+  margin-top: 5%;
+  border: 1px solid white;
+  border-radius: 25px 25px 0 25px;
+  /* position: relative; */
+  /* background-image: url(../../../../images/vollunteer-leftCard-border.svg); */
+
+}
+
+.volunteer-reviews__slider-item_position_left:before,
+.volunteer-reviews__slider-item_position_left:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.volunteer-reviews__slider-item_position_left:before {
+	right: -1px;
+	bottom: -21px;
+	border-style: solid;
+	border-width: 0 51px 21px 0;
+	border-color: transparent white transparent transparent;
+}
+
+.volunteer-reviews__slider-item_position_left:after {
+  right: 0px;
+	bottom: -20px;
+	border-style: solid;
+	border-width: 0 50px 21px 0;
+	border-color: transparent #77C5D5 transparent transparent;
+}

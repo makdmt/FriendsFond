@@ -1,0 +1,11 @@
+.volunteer-reviews__slider-indicators {
+grid-row: 3;
+grid-column: 1 / -1;
+display: flex;
+gap: 12px;
+justify-content: center;
+list-style: none;
+padding: 0;
+
+
+}

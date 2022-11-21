@@ -1,0 +1,19 @@
+.volunteer-reviews__heading {
+grid-row: 1;
+grid-column: 1 / 3;
+margin: 0;
+padding: 0;
+color: white;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+font-style: normal;
+
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1270px) {
+  .volunteer-reviews__heading {
+    font-size: 34px;
+  }
+
+}

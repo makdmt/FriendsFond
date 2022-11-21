@@ -83,3 +83,37 @@
 @import url(../blocks/business-partners/__logo-grid/business-partners__logo-grid.css);
 @import url(../blocks/business-partners/__logo/business-partners__logo.css);
 @import url(../blocks/business-partners/__title/business-partners__title.css);
+
+/* Блок 20 */
+@import url(../blocks/volunteer-reviews/volunteer-reviews.css);
+@import url(../blocks/volunteer-reviews/__grid-wrapper/volunteer-reviews__grid-wrapper.css);
+@import url(../blocks/volunteer-reviews/__slider-item/volunteer-reviews__slider-item.css);
+@import url(../vendor/slider/slider.css);
+@import url(../blocks/volunteer-reviews/__slider-item/_position/volunteer-reviews__slider-item_position_left.css);
+@import url(../blocks/volunteer-reviews/__slider-item/_position/volunteer-reviews__slider-item_position_right.css);
+
+@import url(../blocks/volunteer-reviews/__slider-button/volunteer-reviews__slider-button.css);
+@import url(../blocks/volunteer-reviews/__slider-button/_direction/volunteer-reviews__slider-button_direction_next.css);
+@import url(../blocks/volunteer-reviews/__slider-button/_direction/volunteer-reviews__slider-button_direction_previous.css);
+@import url(../blocks/volunteer-reviews/__allviews-button/volunteer-reviews__allviews-button.css);
+@import url(../blocks/volunteer-reviews/__heading/volunteer-reviews__heading.css);
+@import url(../blocks/volunteer-reviews/__heading-highlight/volunteer-reviews__heading-highlight.css);
+@import url(../blocks/volunteer-reviews/__slider-container/volunteer-reviews__slider-container.css);
+@import url(../blocks/volunteer-reviews/__slider-indicators/volunteer-reviews__slider-indicators.css);
+@import url(../blocks/volunteer-reviews/__slider-indicator/volunteer-reviews__slider-indicator.css);
+@import url(../blocks/volunteer-reviews/__slider-indicator/_active/volunteer-reviews__slider-indicator_active.css);
+@import url(../blocks/volunteer-reviews/__slider-item-avatar/volunteer-reviews__slider-item-avatar.css);
+@import url(../blocks/volunteer-reviews/__slider-item-heading/volunteer-reviews__slider-item-heading.css);
+@import url(../blocks/volunteer-reviews/__slider-item-paragraph/volunteer-reviews__slider-item-paragraph.css);
+
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__frame/digits__frame.css);
+@import url(../blocks/digits/__list/digits__list.css);
+@import url(../blocks/digits/__paragraph/digits__paragraph.css);
+@import url(../blocks/digits/__span-accent/digits__span-accent.css);
+@import url(../blocks/digits/__title/digits__title.css);
+
+/* Блоки документы */
+@import url(../blocks/doc-element/doc-element.css);
+@import url(../blocks/doc-element/__heading/doc-element__heading.css);
+@import url(../blocks/doc-element/__download-button/doc-element__download-button.css);
