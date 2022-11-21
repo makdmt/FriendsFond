@@ -168,7 +168,7 @@ buttonPartners.addEventListener("click", toggleCardsVisibility);
 const button = document.querySelector(".business-partners__button");
 const box = document.querySelectorAll(".business-partners__logo");
 const lastElem = Array.from(box)[box.length - 1];
-console.log(box);
+
 function hideLogos() {
   for (let i = 36; i < box.length; i++) {
     box[i].style.display = "none";
