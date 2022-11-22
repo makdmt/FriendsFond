@@ -5,18 +5,15 @@
   height: 40px;
   border: 0;
   border-radius: 50%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
-  transition-duration: .3s;
-
+  transition-duration: 0.3s;
 }
 
-@media screen and (max-width: 495px) {
-
+@media screen and (max-width: 672px) {
   .volunteer-reviews__slider-button {
-   display: none;
+    display: none;
   }
-
 }
