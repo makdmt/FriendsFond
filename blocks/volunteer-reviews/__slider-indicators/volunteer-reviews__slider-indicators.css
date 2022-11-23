@@ -6,6 +6,16 @@ gap: 12px;
 justify-content: center;
 list-style: none;
 padding: 0;
+margin-top: 28px;
+margin-bottom: 47px;
 
+}
+
+
+@media screen and (max-width: 1220px) {
+  .volunteer-reviews__slider-indicators {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
 
 }

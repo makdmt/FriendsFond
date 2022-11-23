@@ -29,3 +29,12 @@ padding-bottom: 21px;
   }
 
 }
+
+@media screen and (max-width: 370px) {
+  .volunteer-reviews__slider-container {
+    /* width: clamp(260px, 81vw, 320px); */
+    width: 84vw;
+
+  }
+
+}

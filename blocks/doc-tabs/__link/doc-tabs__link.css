@@ -1,0 +1,20 @@
+.doc-tabs__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .doc-tabs__link  {
+    font-size: 18px;
+
+  }
+}

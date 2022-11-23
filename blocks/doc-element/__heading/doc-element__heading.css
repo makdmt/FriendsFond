@@ -12,5 +12,7 @@
 @media screen and (max-width: 550px) {
   .doc-element__heading  {
     font-size: 18px;
+    margin: 0 18px 16px 75px;
+
   }
 }

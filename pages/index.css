@@ -2,8 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/page/page.css);
-@import url(../vendor/slider/slider.css);
-@import url(../vendor/slider/styles.css);
+@import url(../scripts/slider/slider.css);
 /*  */
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/about/about.css);
@@ -86,7 +85,6 @@
 @import url(../blocks/volunteer-reviews/volunteer-reviews.css);
 @import url(../blocks/volunteer-reviews/__grid-wrapper/volunteer-reviews__grid-wrapper.css);
 @import url(../blocks/volunteer-reviews/__slider-item/volunteer-reviews__slider-item.css);
-@import url(../vendor/slider/slider.css);
 @import url(../blocks/volunteer-reviews/__slider-item/_position/volunteer-reviews__slider-item_position_left.css);
 @import url(../blocks/volunteer-reviews/__slider-item/_position/volunteer-reviews__slider-item_position_right.css);
 
@@ -115,3 +113,6 @@
 @import url(../blocks/doc-element/doc-element.css);
 @import url(../blocks/doc-element/__heading/doc-element__heading.css);
 @import url(../blocks/doc-element/__download-button/doc-element__download-button.css);
+@import url(../blocks/doc-tabs/doc-tabs.css);
+@import url(../blocks/doc-tabs/__link/doc-tabs__link.css);
+@import url(../blocks/doc-tabs/__link/_active/doc-tabs__link_active.css);

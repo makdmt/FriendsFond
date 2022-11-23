@@ -33,3 +33,23 @@
 	border-width: 0 50px 21px 0;
 	border-color: transparent #77C5D5 transparent transparent;
 }
+
+
+@media screen and (max-width: 810px) {
+  .volunteer-reviews__slider-item_position_left {
+    margin-top: 40px;
+
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  .volunteer-reviews__slider-item_position_left {
+    /* width: clamp(260px, 81vw, 320px); */
+    width: 84vw;
+
+  }
+
+}
+
+

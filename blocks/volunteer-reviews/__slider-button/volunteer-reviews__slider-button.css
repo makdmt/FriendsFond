@@ -17,3 +17,7 @@
     display: none;
   }
 }
+
+.volunteer-reviews__slider-button:hover {
+  background-color: #f1f5f9;
+}

@@ -43,6 +43,7 @@ transition: .4s;
 
 @media screen and (max-width: 1220px) {
   .volunteer-reviews__allviews-button {
+    width: 100%;
     grid-column: 1 / -1;
     grid-row: 4;
     margin-right: 0;
@@ -50,4 +51,8 @@ transition: .4s;
     justify-self: center;
   }
 
+}
+
+.volunteer-reviews__allviews-button:hover {
+  background-color: #f1f5f9;
 }

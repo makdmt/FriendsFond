@@ -1,0 +1,6 @@
+.doc-tabs {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #c4c4c4;
+}

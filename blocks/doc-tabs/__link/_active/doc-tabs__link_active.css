@@ -1,0 +1,4 @@
+.doc-tabs__link_active {
+  font-weight: 700;
+  border-bottom: 4px solid #54a8b6;
+}
