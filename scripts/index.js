@@ -104,13 +104,13 @@ function showCards(object, startingIndex, cardsAmount = object.length) {
   }
 }
 
-loadMoreBtn.addEventListener("click", () => {
-  showCards(blogCards, 3);
-});
+// loadMoreBtn.addEventListener("click", () => {
+//   showCards(blogCards, 3);
+// });
 
-mediaLoadMoreBtn.addEventListener("click", () => {
-  showCards(mediaCards, 2);
-});
+// mediaLoadMoreBtn.addEventListener("click", () => {
+//   showCards(mediaCards, 2);
+// });
 
 initialMediaBlogCards.forEach(function (item) {
   addCard(createCard(item));

@@ -11,10 +11,15 @@
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 @media screen and (max-width: 356px) {
   .business-partners__button {
     width: 300px;
   }
+}
+
+.business-partners__button:hover {
+  background-color: #f1f5f9;
 }
