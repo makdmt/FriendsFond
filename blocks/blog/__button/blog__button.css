@@ -1,0 +1,30 @@
+.blog__button {
+  display: block;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: #f8f8f8;
+  width: 328px;
+  height: 56px;
+  align-items: center;
+  border-radius: 35px;
+  margin: 56px auto 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  transition: 0.4s;
+}
+.blog__button:hover {
+  background: #f1f5f9;
+  cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+  .blog__button {
+    margin: 56px auto 0;
+    width: 288px;
+  }
+}

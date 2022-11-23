@@ -1,0 +1,18 @@
+.business-partners__title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 96px 0 24px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .business-partners__title {
+     padding-top: 56px;
+     font-size: 32px;
+    }
+  }

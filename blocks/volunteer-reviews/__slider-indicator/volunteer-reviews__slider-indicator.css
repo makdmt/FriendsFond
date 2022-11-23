@@ -1,0 +1,13 @@
+.volunteer-reviews__slider-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .4;
+  cursor: pointer;
+}
+
+
+.volunteer-reviews__slider-indicator:hover {
+  background-color: #f1f5f9;
+}

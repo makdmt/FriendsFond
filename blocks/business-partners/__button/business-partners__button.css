@@ -1,0 +1,25 @@
+.business-partners__button {
+  display: block;
+  margin: 0 auto 56px;
+  padding: 0;
+  background-color: #f8f8f8;
+  border-radius: 56px;
+  width: 327px;
+  height: 56px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 356px) {
+  .business-partners__button {
+    width: 300px;
+  }
+}
+
+.business-partners__button:hover {
+  background-color: #f1f5f9;
+}

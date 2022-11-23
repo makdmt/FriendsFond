@@ -1,0 +1,31 @@
+.partners__button {
+  margin: 0 auto 56px;
+  padding: 0;
+  display: none;
+  background-color: #f8f8f8;
+  border-radius: 56px;
+  width: 327px;
+  height: 56px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 560px) {
+  .partners__button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .partners__button {
+    width: 300px;
+  }
+}
+
+.partners__button:hover {
+  background-color: #f1f5f9;
+}

@@ -1,0 +1,30 @@
+.CV__button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 56px;
+  width: 504px;
+  background-color: #528cbe;
+  color: #fff;
+  height: 56px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.CV__button:hover {
+  background-color: #487fae;
+}
+
+@media screen and (max-width: 560px) {
+  .CV__button {
+    width: 327px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .CV__button {
+    width: 300px;
+  }
+}

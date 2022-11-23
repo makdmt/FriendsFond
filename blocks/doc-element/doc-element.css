@@ -1,0 +1,19 @@
+.doc-element {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 38px;
+  margin-bottom: 16px;
+  background-color: #f8f8f8;
+  min-height: 138px;
+  background-image: url(../../images/pdf-icon.svg);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 51px 67px;
+}
+
+@media screen and (max-width: 550px) {
+  .doc-element {
+    padding: 27px 16px;
+  }
+}

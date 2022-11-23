@@ -1,0 +1,23 @@
+.volunteer-reviews__slider-button {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 672px) {
+  .volunteer-reviews__slider-button {
+    display: none;
+  }
+}
+
+.volunteer-reviews__slider-button:hover {
+  background-color: #f1f5f9;
+}

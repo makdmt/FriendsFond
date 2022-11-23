@@ -1,0 +1,17 @@
+.blog__main-card-text {
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  padding: 16px 0 26px 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog__main-card-text {
+    font-size: 16px;
+    padding: 0 24px 32px;
+  }
+}
